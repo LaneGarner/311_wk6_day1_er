@@ -4,6 +4,8 @@
 
 You should already have MySQL installed from last week but if you don't, please [install it now](https://dev.mysql.com/downloads/mysql/).
 
+`ln -s /usr/local/mysql/bin/mysql /usr/local/bin/mysql`
+
 ## Instructions
 
 ##### Disable Binary Logging (Google Cloud)
@@ -69,10 +71,16 @@ We are going to use a sample schema given to use by MySQL.
 ##### ER Diagram Diagnosis 
 
 1. What is the relationship between the "actor" and "film_actor" tables?
+   
+   actor_id
 
 2. What does the blue diamond next to the "last_update" column on the "inventory" table represent?
+   
+   indicates NOT NULL
 
 3. How many foreign keys does the "payments" table have? How can you tell?
+   
+   Two, the red diamonds
 
 ##### ER Diagram upload
 
